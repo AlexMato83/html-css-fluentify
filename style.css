@@ -1,97 +1,130 @@
-
 *{
   margin:0;
-  padding: 0;
+  padding:0;
   box-sizing: border-box;
 }
-
 /* inizio header */
-
-#fascia_header{
-  /* display: inline-block; */
-  margin-top: 12px;
-  margin-left: 13%;
-  float: left;
+header{
+  height: 400px;
+  background-color: #0d325a;
 }
-#fascia_header >ul > li{
-  list-style-type: none;
-  /* border:1px solid black; */
-  height: 30px;
-  float: left;
-  padding:4px;
-
-}
-#fascia_header > ul > li > a {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-#fascia_header2 > ul > li {
-  list-style-type: none;
-  height: 30px;
-  float: left;
-}
-#fascia_header2 > ul > li > a {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-
-.prima_classe{
-  height: 300px;
-  /* background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
-  background-size: cover;
-  background-position: right; */
-  position: relative;
-  background-color: blue;
-}
-/* inizio div h1 */
-#prima_classe > h1 {
-  font-size:-webkit-xxx-large;
-  font-family: 'Roboto', sans-serif;
-}
-#prima_classe{
-  position: absolute;
-  top:40%;
-  left:13%;
-}
-#bottone {
-  background-color: #7fb802;
-  color: white;
-  height: 40px;
-  width: 150px;
-  margin-top: 20px;
-  border-radius: 8px;
-}
-/* fine div h1 */
-
-.stringa {
-  /*height: 100px;*/
-  background-color: #f9f9f9;
-  position: relative;
-  width:100%;
-  margin: auto;
-  padding:25px;
-
-}
-
-#prima_stringa {
-  line-height: 1.8;
-  font-family: 'Roboto', sans-serif;
-}
-h3{
-  text-align:center;
-}
-#prima_stringa > h3 > p {
-  color: #999;
-}
-.background {
-  position: absolute;
-  right:0;
-  top:40%;
-  background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
-  height: 100px;
+/* inizio riga superiore */
+#fascia_superiore{
   width: 100%;
+  padding:2%;
+
+
+}
+#fascia_superiore:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+img{
+  width: 10%;
+  height: 50px;
+  float: left;
+  margin-left: 62px;
+
+
+}
+/* fascia sx */
+#fascia_sx {
+  margin-left: 30px;
+  width: 40%;
+  height: 50px;
+  float: left;
+}
+#fascia_sx > ul > li {
+  list-style-type: none;
+  float:left;
+  padding:17px;
+
+}
+#fascia_sx > ul > li > a {
+  font-size: 11px;
+  color:white;
+  text-decoration: none;
+}
+/* fascia dx */
+#fascia_dx {
+  width: 32%;
+  height: 50px;
+  float: right;
+  margin-right: 48px;
+}
+#fascia_dx > ul > li {
+  list-style-type: none;
+  float:left;
+  padding:16px;
+}
+#fascia_dx > ul > li > a {
+  font-size: 11px;
+  color:white;
+  text-decoration: none;
 }
 
+#bottone1 {
+  height: 27px;
+  width: 55px;
+  background-color:#00000000;
+  border:1px solid #4e8cb6;
+  margin-top: -3px;
+  color:white;
+  border-radius:5px;
+}
+#bottone2 {
+  height: 27px;
+  width: 132px;
+  background-color:#7fb802;
+  float: right;
+  margin-top: -3px;
+  color:white;
+  border-radius:5px;
+  text-align: center;
+  border:none;
 
+}
+/* fine riga superiore */
 
+/* inizio doppio div */
+.doppio_div{
+  height: 66.5%;
+  width: 1252px;
+  border: 1px solid black;
+  position: relative;
+  margin:30px 0 0 91px;
+}
+/* inizio parte SINISTRA del doppio div */
+#blocco_testo > h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#blocco_testo {
+  position: absolute;
+  bottom:0;
+  left: 0;
+  height: 85%;
+  width: 50%;
+  line-height: 1.4;
+  color:white;
+  letter-spacing:3px;
+  font-size: 20px;
+}
+#blocco_testo > button {
+  position:absolute;
+  left:0;
+  bottom:67px;
+}
+/* fine parte SINISTRA del doppio div */
+
+/* inizio parte DESTRA del doppio div */
+.doppio_div > img {
+  position: absolute;
+  bottom:0;
+  right:0;
+  height: 100%;
+  width: 625px;
+}
+/* fine parte DESTRA del doppio div */
+/* fine doppio div */
 /* fine header */
