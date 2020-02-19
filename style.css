@@ -146,3 +146,24 @@ img{
 #prima_stringa p{
   color: #cccccc;
 }
+/* fine STRINGA divisoria */
+
+/* inizio PRIMA sezione */
+#tre_div {
+  width: 90%;
+  height: 3px;
+  margin:auto;
+}
+#tre_div:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.tre_blocchi {
+  float: left;
+  height: 85%;
+  width: 33.3%;
+}
+#immagini {
+
+}
