@@ -5,6 +5,93 @@
   box-sizing: border-box;
 }
 
-header {
+/* inizio header */
+
+#fascia_header{
+  /* display: inline-block; */
+  margin-top: 12px;
+  margin-left: 13%;
+  float: left;
+}
+#fascia_header >ul > li{
+  list-style-type: none;
+  /* border:1px solid black; */
+  height: 30px;
+  float: left;
+  padding:4px;
 
 }
+#fascia_header > ul > li > a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+#fascia_header2 > ul > li {
+  list-style-type: none;
+  height: 30px;
+  float: left;
+}
+#fascia_header2 > ul > li > a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.prima_classe{
+  height: 300px;
+  /* background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+  background-size: cover;
+  background-position: right; */
+  position: relative;
+  background-color: blue;
+}
+/* inizio div h1 */
+#prima_classe > h1 {
+  font-size:-webkit-xxx-large;
+  font-family: 'Roboto', sans-serif;
+}
+#prima_classe{
+  position: absolute;
+  top:40%;
+  left:13%;
+}
+#bottone {
+  background-color: #7fb802;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+/* fine div h1 */
+
+.stringa {
+  /*height: 100px;*/
+  background-color: #f9f9f9;
+  position: relative;
+  width:100%;
+  margin: auto;
+  padding:25px;
+
+}
+
+#prima_stringa {
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
+}
+h3{
+  text-align:center;
+}
+#prima_stringa > h3 > p {
+  color: #999;
+}
+.background {
+  position: absolute;
+  right:0;
+  top:40%;
+  background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+  height: 100px;
+  width: 100%;
+}
+
+
+
+/* fine header */
