@@ -128,3 +128,12 @@ img{
 /* fine parte DESTRA del doppio div */
 /* fine doppio div */
 /* fine header */
+
+/* inizio STRINGA divisoria */
+.stringa {
+ background-color: #f9f9f9;
+ height: 130px;
+}
+#prima_stringa > h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
